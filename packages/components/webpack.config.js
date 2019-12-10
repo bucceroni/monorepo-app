@@ -4,6 +4,7 @@ module.exports = {
   entry: {
     Another: './src/Another.jsx',
     Hello: './src/Hello.jsx',
+    Button: './src/Button.jsx',
   },
   output: {
     path: path.resolve(__dirname, 'lib'),

@@ -1,15 +1,14 @@
 import React from "react";
 // import Another from "components/lib/Another";
 // import Hello from "components/lib/Hello";
-// const Project = require("project/build/index.html")
-import Project from "project/build/index.html"
+import Button from "components/lib/Button";
 
 const Home = () => {
   return (
     <div>
-      <Project/>
+      <Button primary>primary</Button>
+      <Button secondary>secondary</Button>
     </div>
   );
 };
-
 export default Home;
