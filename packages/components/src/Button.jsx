@@ -1,5 +1,14 @@
 import React from "react";
 import styled, { css } from "styled-components";
+// @decorator
+
+@font-face {
+  font-family: 'Foo';
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+  // font-style: normal;
+  // font-weight: 400;
+  // font-display: fallback; /* <- this can be added to each @font-face definition */
+}
 
 const StyledButton = styled.button`
   position: flex;
